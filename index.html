@@ -100,7 +100,7 @@
             },
             methods: {
                 async generateHash() {
-                    if (this.studentID.length != 8 || !/^\d{4}$/.test(this.studentID)) {
+                    if (this.studentID.length != 8 || !/^\d{8}$/.test(this.studentID)) {
                         alert("ENTER EXACTLY 8 DIGITS");
                         return;
                     }
